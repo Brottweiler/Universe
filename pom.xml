@@ -17,8 +17,8 @@
 
     <modules>
         <module>Util</module>
-        <module>Minecraft</module>
-        <module>BungeeCord</module>
+        <module>Minecraft/API</module>
+        <module>Minecraft/BungeeCord</module>
     </modules>
 
     <!--

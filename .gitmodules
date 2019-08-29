@@ -1,3 +1,3 @@
 [submodule "BungeeCord"]
-	path = BungeeCord
+	path = Minecraft/BungeeCord
 	url = git@github.com:Electroid/BungeeCord.git
