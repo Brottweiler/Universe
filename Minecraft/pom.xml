@@ -11,6 +11,11 @@
     <description>Shared APIs between Bukkit and Bungee</description>
     <packaging>jar</packaging>
 
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <distributionManagement>
         <repository>
             <id>github</id>
@@ -31,15 +36,9 @@
             <version>${project.version}</version>
         </dependency>
         <dependency>
-            <!-- Should match the version in SportBukkit and Bungee -->
-            <groupId>com.google.code.findbugs</groupId>
-            <artifactId>findbugs</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-        <dependency>
-            <!-- Should match the version in upstream CraftBukkit -->
             <groupId>org.xerial</groupId>
             <artifactId>sqlite-jdbc</artifactId>
+            <!-- Should match the version in upstream CraftBukkit -->
             <version>3.15.1</version>
             <scope>compile</scope>
         </dependency>
