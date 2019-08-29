@@ -1,3 +1,6 @@
 [submodule "BungeeCord"]
 	path = Minecraft/BungeeCord
 	url = git@github.com:Electroid/BungeeCord.git
+[submodule "Minecraft/SportBukkit"]
+	path = Minecraft/SportBukkit
+	url = git@github.com:Electroid/SportBukkit.git
