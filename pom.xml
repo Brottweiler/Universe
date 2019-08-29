@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <global.version>1.0.0-SNAPSHOT</global.version>
+        <global.version>1.0.1</global.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.deploy.skip>true</maven.deploy.skip>
     </properties>
@@ -10,7 +10,7 @@
     <groupId>tc.oc</groupId>
     <artifactId>pgm-universe</artifactId>
     <name>PGM-Universe</name>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <modules>

@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tc.oc</groupId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1</version>
     <artifactId>minecraft</artifactId>
     <name>Minecraft</name>
     <description>Shared APIs between Bukkit and Bungee</description>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <distributionManagement>
         <repository>
