@@ -4,33 +4,31 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>tc.oc</groupId>
-        <artifactId>ProjectAres</artifactId>
-        <relativePath>../pom.xml</relativePath>
-        <version>1.0.0-SNAPSHOT</version>
-    </parent>
-
+    <groupId>tc.oc</groupId>
+    <version>1.0.0-SNAPSHOT</version>
     <artifactId>minecraft</artifactId>
     <name>Minecraft</name>
+    <description>Shared APIs between Bukkit and Bungee</description>
+    <packaging>pom</packaging>
 
-    <repositories>
+    <distributionManagement>
         <repository>
-            <id>jitpack.io</id>
-            <url>https://jitpack.io</url>
+            <id>github</id>
+            <name>GitHub Electroid Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Electroid/pgm</url>
         </repository>
-    </repositories>
+    </distributionManagement>
 
     <dependencies>
         <dependency>
             <groupId>tc.oc</groupId>
             <artifactId>util</artifactId>
-            <version>${global.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>tc.oc</groupId>
             <artifactId>bungeecord-chat</artifactId>
-            <version>${global.version}</version>
+            <version>${project.version}</version>
         </dependency>
         <dependency>
             <!-- Should match the version in SportBukkit and Bungee -->
