@@ -1,0 +1,24 @@
+name: BukkitSettings
+main: me.anxuiz.settings.bukkit.plugin.BukkitSettingsPlugin
+version: ${project.version}
+author: Anxuiz
+
+commands:
+  get:
+    usage: /<command> <setting name>
+    description: Gets the value of a speficied setting
+  set:
+    usage: /<command> <setting name> <setting value>
+    description: Sets the value of a specified setting
+  setting:
+    usage: /<command> <setting name>
+    description: View information about a specified setting
+  settings:
+    usage: /<command> [page]
+    description: List registered settings
+  toggle:
+    usage: /<command> <setting name>
+    description: Toggles a specified setting if it is toggleable
+  reset:
+    usage: /<command> <setting name>
+    description: Sets the value of a specified setting to its default value

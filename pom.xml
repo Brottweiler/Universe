@@ -10,16 +10,27 @@
     </properties>
 
     <groupId>tc.oc</groupId>
-    <artifactId>pgm-universe</artifactId>
-    <name>PGM-Universe</name>
-    <version>1.0.1</version>
+    <artifactId>universe</artifactId>
+    <name>Universe</name>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <modules>
         <module>Util</module>
-        <module>Minecraft/API</module>
-        <module>Minecraft/BungeeCord</module>
+        <module>Minecraft</module>
+        <module>Channels</module>
+        <module>Settings</module>
+        <module>Command</module>
+        <module>Sentry</module>
     </modules>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Electroid Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Electroid/pgm</url>
+        </repository>
+    </distributionManagement>
 
     <!--
          Dependency versions are managed here to make sure that all modules get the same version.
@@ -51,9 +62,11 @@
                 <version>2.1</version>
                 <configuration>
                     <createDependencyReducedPom>false</createDependencyReducedPom>
+                    <minimizeJar>true</minimizeJar>
                 </configuration>
             </plugin>
             <plugin>
+                <inherited>true</inherited>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>buildnumber-maven-plugin</artifactId>
                 <version>1.4</version>
@@ -70,6 +83,7 @@
                 </configuration>
             </plugin>
             <plugin>
+                <inherited>true</inherited>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>

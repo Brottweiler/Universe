@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>me.anxuiz</groupId>
+        <artifactId>settings-parent</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>bukkit-settings</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <name>BukkitSettings</name>
+    <description>Bukkit plugin and API for controlling player settings</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>me.anxuiz</groupId>
+            <artifactId>settings</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>tc.oc</groupId>
+            <artifactId>sportbukkit-api</artifactId>
+            <version>1.12.2.0</version>
+        </dependency>
+    </dependencies>
+</project>
