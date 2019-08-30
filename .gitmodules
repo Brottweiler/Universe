@@ -4,3 +4,6 @@
 [submodule "Minecraft/SportBukkit"]
 	path = Minecraft/SportBukkit
 	url = git@github.com:Electroid/SportBukkit.git
+[submodule "Minecraft/ProtocolSupport"]
+	path = Minecraft/ProtocolSupport
+	url = git@github.com:Electroid/ProtocolSupport.git
