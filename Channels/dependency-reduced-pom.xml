@@ -50,6 +50,7 @@
   </dependencies>
   <properties>
     <plugin.prefix>Channels</plugin.prefix>
+    <maven.deploy.skip>false</maven.deploy.skip>
     <plugin.mainClass>com.github.rmsy.channels.ChannelsPlugin</plugin.mainClass>
   </properties>
 </project>

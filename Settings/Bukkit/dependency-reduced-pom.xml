@@ -8,7 +8,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>bukkit-settings</artifactId>
   <name>Settings-Bukkit</name>
-  <version>1.0.0</version>
+  <version>1.12.2.0</version>
   <description>Bukkit plugin and API for controlling player settings</description>
   <build>
     <sourceDirectory>${basedir}/src/main/java/</sourceDirectory>
@@ -49,5 +49,8 @@
       <scope>compile</scope>
     </dependency>
   </dependencies>
+  <properties>
+    <maven.deploy.skip>false</maven.deploy.skip>
+  </properties>
 </project>
 

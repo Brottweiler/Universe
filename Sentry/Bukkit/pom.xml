@@ -17,6 +17,10 @@
 
     <name>Sentry-Bukkit</name>
 
+    <properties>
+        <maven.deploy.skip>false</maven.deploy.skip>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>tc.oc</groupId>

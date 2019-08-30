@@ -15,6 +15,10 @@
     <name>Command-Bungee</name>
     <description>Supporting classes for using the command framework on BungeeCord</description>
 
+    <properties>
+        <maven.deploy.skip>false</maven.deploy.skip>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.sk89q</groupId>

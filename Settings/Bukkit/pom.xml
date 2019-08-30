@@ -12,11 +12,15 @@
     </parent>
 
     <artifactId>bukkit-settings</artifactId>
-    <version>1.0.0</version>
+    <version>1.12.2.0</version>
     <packaging>jar</packaging>
 
     <name>Settings-Bukkit</name>
     <description>Bukkit plugin and API for controlling player settings</description>
+
+    <properties>
+        <maven.deploy.skip>false</maven.deploy.skip>
+    </properties>
 
     <dependencies>
         <dependency>

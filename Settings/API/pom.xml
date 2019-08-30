@@ -18,6 +18,10 @@
     <name>Settings-API</name>
     <description>General-purpose classes for defining configurable settings</description>
 
+    <properties>
+        <maven.deploy.skip>false</maven.deploy.skip>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>

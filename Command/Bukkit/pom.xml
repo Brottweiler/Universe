@@ -15,6 +15,10 @@
     <name>Command-Bukkit</name>
     <description>Supporting classes for running the command framework on Bukkit</description>
 
+    <properties>
+        <maven.deploy.skip>false</maven.deploy.skip>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.sk89q</groupId>

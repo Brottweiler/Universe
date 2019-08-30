@@ -4,6 +4,13 @@ Full-stack dependencies required by the legacy `oc.tc` Minecraft plugins.
 
 ### Install
 
+```xml
+<repository>
+    <id>octc-universe</id>
+    <url>https://maven.pkg.github.com/Electroid</url>
+</repository>
+```
+
 ```bash
 mvn clean install
 ```

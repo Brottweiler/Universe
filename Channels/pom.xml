@@ -22,6 +22,7 @@
     <properties>
         <plugin.prefix>Channels</plugin.prefix>
         <plugin.mainClass>com.github.rmsy.channels.ChannelsPlugin</plugin.mainClass>
+        <maven.deploy.skip>false</maven.deploy.skip>
     </properties>
 
     <dependencies>

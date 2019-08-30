@@ -18,6 +18,10 @@
     <name>Minecraft-API</name>
     <description>Shared APIs between Bukkit and Bungee</description>
 
+    <properties>
+        <maven.deploy.skip>false</maven.deploy.skip>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>tc.oc</groupId>

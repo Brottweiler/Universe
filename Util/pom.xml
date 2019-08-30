@@ -18,6 +18,10 @@
     <name>Util</name>
     <description>Utility code used by all other modules</description>
 
+    <properties>
+        <maven.deploy.skip>false</maven.deploy.skip>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>com.google.guava</groupId>
