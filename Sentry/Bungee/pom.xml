@@ -15,7 +15,7 @@
     <version>1.12.0</version>
     <packaging>jar</packaging>
 
-    <name>Sentry Bungee</name>
+    <name>Sentry-Bungee</name>
 
     <dependencies>
         <dependency>
@@ -29,4 +29,28 @@
             <version>1.12.0</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <artifactSet>
+                                <includes>
+                                    <include>tc.oc:raven-minecraft-core</include>
+                                </includes>
+                            </artifactSet>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

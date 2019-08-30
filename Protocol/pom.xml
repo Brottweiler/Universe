@@ -11,15 +11,14 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>minecraft-parent</artifactId>
+    <artifactId>protocol</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <name>Minecraft</name>
+    <name>Protocol</name>
 
     <modules>
-        <module>API</module>
-        <module>BungeeCord</module>
-        <module>SportBukkit</module>
+        <module>ProtocolSupport</module>
+        <module>ViaVersion</module>
     </modules>
 </project>

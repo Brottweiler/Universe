@@ -12,7 +12,7 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>Command API</name>
+    <name>Command-API</name>
     <description>Core classes for the sk89q command framework</description>
 
     <dependencies>

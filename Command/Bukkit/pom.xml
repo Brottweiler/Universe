@@ -12,7 +12,7 @@
     <version>1.12.2.0</version>
     <packaging>jar</packaging>
 
-    <name>Command Bukkit</name>
+    <name>Command-Bukkit</name>
     <description>Supporting classes for running the command framework on Bukkit</description>
 
     <dependencies>
@@ -27,4 +27,29 @@
             <version>1.12.2.0</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.1</version>
+                <configuration>
+                    <artifactSet>
+                        <includes>
+                            <include>com.sk89q:command-framework-core</include>
+                        </includes>
+                    </artifactSet>
+                </configuration>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
