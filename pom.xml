@@ -15,6 +15,7 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>Misc</module>
         <module>Util</module>
         <module>Minecraft</module>
         <module>Protocol</module>

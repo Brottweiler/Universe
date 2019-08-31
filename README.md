@@ -2,7 +2,7 @@
 
 Full-stack dependencies required by the legacy `oc.tc` Minecraft plugins.
 
-### Install
+### Installation
 
 ```xml
 <repository>
@@ -27,6 +27,7 @@ Below are the equivalent dependencies included in this repository. Some like `Bu
 * [`BukkitSettings`](https://github.com/StratusNetwork/BukkitSettings)
 * [`Channels`](https://github.com/OvercastNetwork/Channels)
 * [`raven-minecraft`](https://github.com/OvercastNetwork/raven-minecraft)
+* [`gson`](https://github.com/OvercastNetwork/gson)
 
 ### Extras
 

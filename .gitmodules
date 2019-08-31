@@ -10,3 +10,6 @@
 [submodule "Minecraft/SportBukkit"]
 	path = Minecraft/SportBukkit
 	url = git@github.com:Electroid/SportBukkit.git
+[submodule "Misc/Gson"]
+	path = Misc/Gson
+	url = git@github.com:Electroid/gson.git
